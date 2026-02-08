@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quinaryLoopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-loop-interchange-order@deno/mod.js';
+import quinaryLoopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-loop-interchange-order@v0.1.1-deno/mod.js';
 ```
 
 <!-- lint disable maximum-heading-length -->
@@ -130,7 +130,7 @@ For all returned arrays, the first element corresponds to the innermost loop, an
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@deno/mod.js';
 import getStrides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@deno/mod.js';
-import quinaryLoopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-loop-interchange-order@deno/mod.js';
+import quinaryLoopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-loop-interchange-order@v0.1.1-deno/mod.js';
 
 // Create ndarrays:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
